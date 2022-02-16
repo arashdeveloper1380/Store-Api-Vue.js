@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Learn VueJs</title>
+	<link rel="stylesheet" type="text/css" href="asset/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container"><br>
+	<div class="row">
+		<div class="well">
+			<div id="app">
+				<input type="" class="form-control" v-on:input="changeTitle">
+				<br>
+				<p>{{ title }}</p>
+				<p>{{ sayHello() }}</p>
+				<a v-bind:href="link">Arash.com</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="asset/js/vue.js"></script>
+<script src="asset/js/custom.js"></script>
+</body>
+</html>
